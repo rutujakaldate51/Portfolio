@@ -1,0 +1,369 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutuja Portfolio</title>
+    <link rel="stylesheet" href="{% static 'account/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'account/css/style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+    <div id="header">
+        <div class="portfolio">
+            <h1>Portfolio</h1>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Project</a></li>
+            </ul>
+        </div>
+    </div>
+
+{% comment %} ///////////////////////     CONTAINER 2        ////////////////////////////////  {% endcomment %}
+    
+
+    <div class="container2">
+        <div class="box">
+            <div id="box1">   
+                <div id="how1">Rutuja Kaldate</div>
+                <p>Python Django Developer with 8 months of experience, proficient in creating web applications, designing databases, and implementing robust backend solutions.</p>
+            </div>
+            <div class="info">
+                <div id="General">General Info</div>
+                <div><span>Date of Birth</span>December 12, 1999</div>
+                <div><span>Address</span>Laxman Nagar, Baner, Pune, Maharashtra</div>
+                <div><span>E-mail</span>rutuja.kaldate51@gmail.com</div>
+                <div><span>Phone </span>8956575600</div>        
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div id="box2">
+                <div class="image">
+                    <div class="img">
+                        <img src="{% static 'account/images/hero.jpg' %}"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>  
+    
+{% comment %} ///////////////////////     CONTAINER 3       ////////////////////////////////  {% endcomment %}
+    
+    
+    <div class="container3">
+        <div class="Mode">
+            <ul id="Mode1">
+                <li><a id="facebook" class="social-link social-link-facebook" title="Facebook"
+                        href="https://www.facebook.com/" target="_blank"><svg width="35" height="37"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor" fill-rule="evenodd"
+                                d="M12.82 24H1.324A1.325 1.325 0 0 1 0 22.675V1.325C0 .593.593 0 1.325 0h21.35C23.407 0 24 .593 24 1.325v21.35c0 .732-.593 1.325-1.325 1.325H16.56v-9.294h3.12l.466-3.622H16.56V8.77c0-1.048.29-1.763 1.795-1.763h1.918v-3.24c-.332-.045-1.47-.143-2.795-.143-2.766 0-4.659 1.688-4.659 4.788v2.67H9.692v3.623h3.127V24z">
+                            </path>
+                        </svg></a></li>
+                <li><a id="twitter" class="social-link social-link-twitter" title="Twitter" href="https://twitter.com/"
+                        target="_blank"><svg width="37" height="39" viewBox="0 0 24 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor" fill-rule="evenodd"
+                                d="M24 2.368a9.617 9.617 0 0 1-2.827.794A5.038 5.038 0 0 0 23.338.37a9.698 9.698 0 0 1-3.129 1.223A4.856 4.856 0 0 0 16.616 0c-2.718 0-4.922 2.26-4.922 5.049 0 .396.042.78.126 1.15C7.728 5.988 4.1 3.979 1.67.922a5.14 5.14 0 0 0-.666 2.54c0 1.751.87 3.297 2.19 4.203a4.834 4.834 0 0 1-2.23-.63v.062c0 2.447 1.697 4.488 3.95 4.95a4.695 4.695 0 0 1-1.296.178c-.317 0-.627-.03-.927-.09.626 2.006 2.444 3.466 4.599 3.505A9.722 9.722 0 0 1 0 17.733 13.71 13.71 0 0 0 7.548 20c9.058 0 14.01-7.692 14.01-14.365 0-.22-.005-.439-.013-.654A10.1 10.1 0 0 0 24 2.368">
+                            </path>
+                        </svg> </a></li>
+                
+                <li><a id="instagram" class="social-link social-link-instagram" title="Instagram"
+                        href="https://www.instagram.com/_rutuja.kaldate_/" target="_blank"><svg width="37" height="39"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor" fill-rule="evenodd"
+                                d="M6.89 2.234h10.22c2.578 0 4.668 2.1 4.668 4.692v10.148c0 2.592-2.09 4.692-4.667 4.692H6.889c-2.577 0-4.667-2.1-4.667-4.692V6.926c0-2.592 2.09-4.692 4.667-4.692zM0 17.074C0 20.9 3.085 24 6.89 24h10.22c3.806 0 6.89-3.1 6.89-6.926V6.926C24 3.1 20.915 0 17.11 0H6.89C3.083 0 0 3.1 0 6.926v10.148zm18.35-4.978c0-3.508-2.83-6.351-6.318-6.351-3.49 0-6.318 2.843-6.318 6.35 0 3.508 2.829 6.352 6.318 6.352 3.489 0 6.317-2.844 6.317-6.351zm-10.413 0c0-2.274 1.833-4.117 4.095-4.117 2.261 0 4.095 1.843 4.095 4.117s-1.834 4.117-4.095 4.117c-2.262 0-4.095-1.843-4.095-4.117zm10.476-4.979c.841 0 1.524-.686 1.524-1.532s-.683-1.532-1.524-1.532c-.842 0-1.524.686-1.524 1.532s.682 1.532 1.524 1.532z">
+                            </path>
+                        </svg> </a></li>
+                <li><a id="linkedin" class="social-link social-link-linkedin" title="LinkedIn"
+                        href="https://www.linkedin.com/in/rutuja-kaldate-109b06250/" target="_blank"><svg fill="none"
+                            xmlns="http://www.w3.org/2000/svg" width="35" height="37" viewBox="0 0 24 24">
+                            <path
+                                d="M0 1.719C0 .77.795 0 1.774 0h20.452C23.205 0 24 .77 24 1.719v20.562c0 .95-.795 1.719-1.774 1.719H1.774C.795 24 0 23.23 0 22.281V1.719Zm7.237 18.232V9.22H3.67v10.732h3.567ZM5.454 7.755c1.244 0 2.018-.825 2.018-1.854-.023-1.053-.775-1.854-1.996-1.854-1.219 0-2.017.801-2.017 1.854 0 1.03.775 1.854 1.972 1.854h.023Zm3.757 12.197h3.567v-5.993c0-.321.022-.641.117-.87.258-.642.845-1.305 1.83-1.305 1.29 0 1.808.984 1.808 2.426v5.741h3.566V13.8c0-3.297-1.76-4.83-4.107-4.83-1.924 0-2.77 1.075-3.238 1.807h.022V9.22H9.21c.048 1.007 0 10.732 0 10.732h.001Z"
+                                fill="currentColor"></path>
+                        </svg> 
+                    </a>
+                <li>
+                    <a id="github" class="header-logo" href="https://github.com/rutujakaldate51" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+                        <svg height="39" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="40" data-view-component="true" class="octicon octicon-mark-github">
+                      <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+                  </svg>
+                      </a>
+                </li>    
+                </li>
+            </ul>
+        </div> 
+        <hr>
+        <div>____________________________</div>
+        <div id="social">My Social Profiles</div>   
+    </div> 
+
+
+{% comment %} ///////////////////////     CONTAINER 4        ////////////////////////////////  {% endcomment %}
+    
+    <hr>
+
+    <div id="work">Work Experience</div>   
+
+    <div class="container4">
+        <div class="box">
+            <ul class="resume-list">
+                <li>
+                    <div id="box1">
+                       <h2>2023-Present</h2>
+                       <h3><em>Excellentminds Software Technologies India Private Limited</em></h3>
+                       <h4>Python Django Developer</h4>
+                    </div>
+                    <div id="box2">
+                       <p>I'm thrilled to share that I've joined a new company as a Python developer! This exciting opportunity allows me to apply my passion for coding and problem-solving while collaborating with a dynamic team. Looking forward to contributing my skills and growing together with the company.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="box">
+            <ul class="resume-list">
+                <li>
+                    <div id="box1">
+                        <h2>2021</h2>
+                        <h3><em>Eitot Technologies</em></h3>
+                        <h4>Software Test Engineer</h4>
+                    </div>
+                    <div id="box2">
+                        <p>A Software Test Engineer who has successfully completed a 6-month internship is a skilled professional with hands-on experience in testing software applications. During their internship, they have gained practical knowledge in various testing methodologies, tools, and techniques.  They are adept at creating test plans, executing test cases, and identifying defects to ensure the quality and reliability of software products.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div> 
+
+{% comment %} ///////////////////////     CONTAINER 5       ////////////////////////////////  {% endcomment %}
+    
+
+    <hr>
+
+    <div id="skills">SKILLs</div>   
+    
+    <div class="container5">
+        <div class="box">
+            <div class="logo">
+                <div id="box1">
+                    <img src="{% static 'account/images/python.png' %}"  alt="">
+                </div>
+            </div>    
+        </div>
+         
+        <div class="box">
+            <div class="logo">
+                <div id="box2">
+                    <img src="{% static 'account/images/html.png' %}"  alt="">
+                </div>
+            </div>    
+        </div>   
+
+        <div class="box">
+            <div class="logo">
+                <div id="box3">
+                    <img src="{% static 'account/images/css6.png' %}"  alt="">
+                </div>
+            </div>    
+        </div>
+
+        <div class="box">
+            <div class="logo">
+                <div id="box4">
+                    <img src="{% static 'account/images/dj.png' %}"  alt="">
+                </div>
+            </div>    
+        </div>
+        
+        <div class="box">
+            <div class="logo">
+                <div id="box5">
+                    <img src="{% static 'account/images/js.png' %}"  alt="">
+                </div>
+            </div>
+        </div>
+        
+        <div class="box">
+            <div class="logo">
+                <div id="box6">
+                    <img src="{% static 'account/images/rest.png' %}"  alt="">
+                </div>
+            </div>    
+        </div>
+    </div> 
+
+    
+
+{% comment %} /////////////////////////////////////////    container 6      //////////////////////////////////////////////// {% endcomment %}
+
+
+    <hr>
+
+    <div id="education">Education</div>   
+
+    <div class="container6">
+        <div class="box">
+            <ul class="resume-list">
+                <li>
+                    <div id="box1">
+                       <h2>2021</h2>
+                       <h3><em>Dr.Babasaheb Ambedkar Technological University</em></h3>
+                       <h4>B.E/B.Tech</h4>
+                    </div>
+                    <div id="box2">
+                       <p>I graduated in 2021 from Dr. Babasaheb Ambedkar Technological University with a degree in Computer Science, having successfully completed the 4th year of my course with an impressive CGPA of 8.15. Additionally, I pursued my education at Shri Shivaji Institute of Engineering and Management Studies in Parbhani, where I honed my skills and acquired a solid foundation in computer science.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="box">
+            <ul class="resume-list">
+                <li>
+                    <div id="box1">
+                        <h2>2017</h2>
+                        <h3><em>SANTAI JR COLLEGE MANDAKHALI - Parbhani</em></h3>
+                        <h4>General Science</h4>
+                    </div>
+                    <div id="box2">
+                        <p>I completed my 12th grade in 2017, specializing in general science at SANTAI JR COLLEGE MANDAKHALI in Parbhani. This educational experience equipped me with a foundational understanding of various scientific disciplines. The knowledge gained during my time at this institution laid the groundwork for my academic journey and further studies in the field of science.                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div> 
+
+{% comment %} /////////////////////////////////////////    container 7     //////////////////////////////////////////////// {% endcomment %}
+   
+    <hr>
+
+    <div id="project">Project</div>   
+
+    <div class="container7">
+        <div class="box">
+            <ul class="resume-list">
+                <li>
+                    <div id="box1">
+                       <h2>MyChurch App</h2>
+                       <h3><em>Excellentminds Software Technologies India Private Limited</em></h3>
+                       <h4>2023-September</h4>
+                    </div>
+                    <div id="box2">
+                       <p>The MyChurch app, built with Django Rest Framework, generates an API tailored for Christian believers. Specifically designed to meet the unique needs of the Christian community, this application facilitates seamless interaction and access to resources, fostering a tech-enabled experience for users on their spiritual journey. Customize views to handle API requests, making use of Django Rest Framework's class-based views for a clean and efficient code structure. Set up appropriate URL patterns for each app, mapping endpoints to their respective views, ensuring a logical and intuitive API design.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="box">
+            <ul class="resume-list">
+                <li>
+                    <div id="box1">
+                        <h2>Organization Project</h2>
+                        <h3><em>Excellentminds Software Technologies India Private Limited</em></h3>
+                        <h4>2023-August</h4>
+                    </div>
+                    <div id="box2">
+                        <p>Utilize Django Rest Framework to develop APIs for each app, enabling seamless communication and data retrieval. Implement master data for each app to ensure a comprehensive and organized database. Leverage the power of Django's ORM to establish relationships between different models, fostering a cohesive data structure. Implement serializers in Django Rest Framework to convert complex data types, such as Django models, into native Python data types that can be easily rendered into JSON.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div> 
+
+
+{% comment %} /////////////////////////////////////////    container 8     //////////////////////////////////////////////// {% endcomment %}
+   
+    <hr>
+
+    <div id="language">Language</div>   
+
+    <div class="container8">
+        <div class="box">
+            <ul class="resume-list">
+                <li>
+                    <div id="box1">
+                       <h2>English</h2>
+                       <h4> ⭐⭐⭐⭐⭐</h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="box">
+            <ul class="resume-list">
+                <li>
+                    <div id="box1">
+                        <h2>Hindi</h2>
+                        <h4> ⭐⭐⭐⭐⭐</h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="box">
+            <ul class="resume-list">
+                <li>
+                    <div id="box1">
+                        <h2>Marathi</h2>
+                        <h4> ⭐⭐⭐⭐⭐</h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div> 
+
+
+{% comment %} /////////////////////////////////////////    container 9     //////////////////////////////////////////////// {% endcomment %}
+   
+    <div id="container10">
+        <div id="language" class="head3 border-bottom">CONTACT US</div> 
+        {% comment %} <h5 class="head3 border-bottom">CONTACT US</h5> {% endcomment %}
+        <form action="">
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <input type="text" class="form-control" placeholder="Name"/>
+                </div> 
+     
+                <div class="form-group col-md-6">
+                    <input type="email" class="form-control" placeholder="E-mail"/>
+                </div> 
+            </div>
+
+            <div class="form-group col-md-12 pt-4">
+                <input type="text" class="form-control" placeholder="Subject"/>
+            </div>
+            
+            <div class="form-group col-md-12 pt-4 mb-4">
+                <textarea placeholder="Message" class="form-control"></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Send</button>
+        </form>   
+    </div>    
+    
+    
+
+    <script src="{% static 'account/js/jquery.js' %}"></script>
+    <script src="{% static 'account/js/popper.js' %}"></script>
+    <script src="{% static 'account/js/bootstrap.min.js' %}"></script>
+</body>
+</html>

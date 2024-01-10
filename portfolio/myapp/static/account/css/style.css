@@ -1,0 +1,475 @@
+body {
+    font-family: 'Gentium Book Plus', serif;
+    font-style: normal;
+    font-weight: 200;
+    color: #40424a;
+    font-size: 20px;
+    /* background-image: url('back.jpg'); */
+    /* background-color: rgb(224, 210, 210);  */
+    /* background-color: rgb(204, 240, 200);  */
+    /* background-color: #ebebeb;  */
+    /* background-color: #afe2ec; */
+}
+
+
+/* {% comment %} /////////////////////////////////////////          //////////////////////////////////////////////// {% endcomment %} */
+
+#header{
+    font-size: 20px;
+    display: block;
+    display: flex;
+    /* margin: 8px 40px; */
+    list-style: none;
+    /* background-color:  rgb(226, 195, 195);  */
+    /* position: sticky; */
+} 
+
+#header .portfolio{
+    padding-top: 22px;
+    padding-left: 40px;
+} 
+
+#header .portfolio h1{
+    font-size: 36px;
+} 
+
+.mid{
+    /* padding: 10px 120px; */
+    padding-top: 10px;
+    padding-left: 320px;
+}
+
+.navbar li a{
+    font-size: 21px;
+    text-decoration: none;
+    color: #262626;
+    margin: 0px;
+    padding: 3px 10px;
+    background-color: #e8ebeb;
+    border-radius: 9px;
+}
+
+.navbar li a:hover{
+    background-color: #b8b9bb;
+    color: #000;
+} 
+
+
+.navbar li{
+    list-style: none;
+    padding: 6px 30px;
+}
+
+/* //////////////////////////        CONTAINER 2              ////////////////////////////////////// */
+
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 5fr);
+    padding:  30px 30px;
+}
+
+.container2 .box img {
+    margin-left: 80px;
+    width:460px;
+    /* border-radius: 50%; */
+    /* filter: grayscale(100%); */
+    transition: 0.5s ease-in;
+    cursor: pointer;
+    filter: drop-shadow(16px 16px 20px black);
+}
+
+
+.container2 #box1 {
+    margin-left: 80px;
+    width:550px;
+    padding: 10px 0px;
+}
+
+.container2 .box #how1{
+    font-size: 5.5rem;
+    padding: 10px 0px;
+}
+
+.container2 .box #how1:hover {
+    color: #000;
+}
+
+.container2 .box p{
+    font-size: 1.5rem;
+}
+
+
+.container2 .box img:hover {
+    transform: scale(1.02);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; 
+    /* filter: grayscale(0); */
+}
+
+.container2 #Mode1 {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    display: flex;
+}
+
+.container2 #Mode1 a {
+    color: black;
+    padding:  11px;
+}
+
+.container2 #Mode1 a:hover{
+    background-color: #6098e6;
+    border-radius: 35%;
+    transform: scale(1.02);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; 
+}
+
+.info ul li {
+    list-style: none;
+}    
+
+
+.info  span {
+    /* color: #40424a; */
+    display: inline-block;
+    min-width: 170px;
+    padding: 0px;
+    font-size: 1.5rem;
+}    
+
+.container2 .info #General{
+    font-size: 3.5rem;
+    padding: 10px 0px;
+}
+
+.container2 .info {
+    margin-left: 80px;
+    width:550px;
+    padding: 10px 0px;
+    text-align: left;
+}
+
+/* ///////////////////////     CONTAINER 3      //////////////////////////////// */
+
+.container3  {
+    /* justify-content: center; */
+    display: flex;
+    padding: 30px 90px;
+}
+
+
+.container3 #Mode1 {
+    /* margin: 0px 80px;  */
+    padding: 0px 60px; 
+    list-style: none;
+    display: flex;
+}
+
+.container3 #Mode1 a {
+    color: black;
+    padding:  17px;
+}
+
+.container3 #Mode1 a:hover{
+    background-color: #6098e6;
+    border-radius: 35%;
+    transform: scale(1.02);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; 
+}
+
+.container3  #social{
+    font-size: 2rem;
+    padding: 0px 60px; 
+}
+
+/* ///////////////////////     CONTAINER 4     //////////////////////////////// */
+
+
+#work {
+    text-align: center;
+    margin: 60px 0px;
+    font-size: 60px;
+    padding: 10px 0px;    
+}
+
+#work:hover {
+    color: #000;
+}
+
+.container4 {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin-bottom: 50px;
+}
+
+.container4 .box ul li{
+    list-style: none;
+}
+
+.container4 .box{
+    padding: 0px 40px;
+}
+
+.container4 .box .resume-list{
+    border-left: 1px solid rgb(128, 126, 126);
+}
+
+.container4 .box #box2{
+    padding: 30px 0px;
+}
+
+
+
+/* ///////////////////////     CONTAINER 5      //////////////////////////////// */
+
+#skills {
+    text-align: center;
+    margin: 60px 0px;
+    font-size: 60px;
+    padding: 10px 0px; 
+    border-bottom:2px rgb(128, 126, 126)   
+}
+
+#skills:hover {
+    color: #000;
+}
+
+
+.container5 {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    margin-bottom: 70px;
+    margin-left: 75px;
+    padding: 10px 100px;
+    width: 90%;
+}
+
+
+.container5 .box{
+    padding-top: 20px;
+    /* padding: 20px 0px; */
+    margin: 0px;
+    width: 270px;
+}
+
+
+.container5 #box1 img{
+    padding: 15px 20px;
+    margin: 0px;
+    width: 226px; 
+    transition: 0.5s ease-in;
+    cursor: pointer;
+    /* filter: drop-shadow(16px 16px 20px black); */
+}
+
+
+.container5 #box2 img{
+    padding: 15px 20px;
+    margin: 0px;
+    width: 226px; 
+}
+
+.container5 #box3 img{
+    padding: 10px 20px;
+    margin: 0px;
+    width: 236px; 
+}
+
+.container5 #box4 img{
+    padding: 0px 20px;
+    margin: 12px 0px;
+    width: 216px; 
+}
+
+.container5 #box5 img{
+    padding: 20px 20px;
+    margin: 0px;
+    width: 185px;
+}
+
+.container5 #box6 img{
+    padding: 20px 20px;
+    margin: 0px;
+    width: 274px;
+}
+
+.container5 .logo{
+    padding-top: 20px; 
+    border-radius: 5px;
+    box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.16), 0 6px 10px 0 rgb(0 0 0 / 12%);
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+}
+
+/* #education {
+    text-align: left;
+    margin: 40px 250px;
+    font-size: 62px;
+    padding: 10px 0px;    
+}
+
+.container6 {
+    margin-bottom: 50px;
+    width: 720px;
+    margin: 10px auto;
+}
+
+.container6 .box ul li{
+    list-style: none;
+}
+
+.container6 .box{
+    padding: 0px 60px;
+}
+
+.container6 .box .resume-list{
+    border-left: 2px solid rgb(121, 119, 119);
+}
+
+.container6 .box #box2{
+    padding: 30px 0px;
+}
+
+.container6 .box #box1 h2{
+    font-size: 3.9rem;
+    padding-bottom: 11px;
+}
+
+.container6 .box #box1 h3{
+    font-size: 2rem;
+} */
+
+
+/* ///////////////////////     CONTAINER 5      //////////////////////////////// */
+
+
+
+#education {
+    text-align: center;
+    margin: 40px 250px;
+    font-size: 62px;
+    padding: 10px 0px;    
+}
+
+#education:hover {
+    color: #000;
+}
+
+.container6 {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin-bottom: 50px;
+}
+
+.container6 .box ul li{
+    list-style: none;
+}
+
+.container6 .box{
+    padding: 0px 40px;
+}
+
+.container6 .box .resume-list{
+    border-left: 1px solid rgb(128, 126, 126);
+}
+
+.container6 .box #box2{
+    padding: 30px 0px;
+}
+
+/* ///////////////////////     CONTAINER 7      //////////////////////////////// */
+
+#project {
+    text-align: center;
+    margin: 60px 0px;
+    font-size: 60px;
+    padding: 10px 0px;    
+}
+
+#project:hover {
+    color: #000;
+}
+
+.container7 {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin-bottom: 50px;
+}
+
+.container7 .box ul li{
+    list-style: none;
+}
+
+.container7 .box{
+    padding: 0px 40px;
+}
+
+.container7 .box .resume-list{
+    border-left: 1px solid rgb(128, 126, 126);
+}
+
+.container7 .box #box2{
+    padding: 30px 0px;
+}
+
+
+/* ///////////////////////     CONTAINER 8     //////////////////////////////// */
+
+#language {
+    text-align: center;
+    margin: 60px 0px;
+    font-size: 60px;
+    padding: 10px 0px;    
+}
+
+#language:hover {
+    color: #000;
+}
+
+.container8 {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+
+.container8 .box ul li{
+    list-style: none;
+}
+
+.container8 .box{
+    padding: 0px 20px;
+}
+
+.container8 .box .resume-list{
+    border-left: 1px solid rgb(128, 126, 126);
+}
+
+.container8 .box #box2{
+    padding: 30px 0px;
+}
+
+#container10{
+    margin: 10px 250px;
+}
+
+#container10 input{
+    font-size: 1rem;
+}
+
+#container10 input{
+    font-family: 'Fraunces', serif;
+    border-bottom: 2px solid #aaa8a8;
+    font-size: 15px;
+}
+
+#container10 textarea{
+    font-family: 'Fraunces', serif;
+    border-bottom: 2px solid #b9b7b7;
+    font-size: 15px;
+}
+
